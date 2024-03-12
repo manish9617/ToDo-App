@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: gray;
+}
+.button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+.button:hover {
+  background-color: blue;
+  transition: 0.5s;
+}
+.main a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.addtask {
+  background-color: #ebebeb;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+  padding-top: 2px;
+  height: 40px;
+}
